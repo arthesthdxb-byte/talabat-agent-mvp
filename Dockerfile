@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.48.2-jammy
+FROM mcr.microsoft.com/playwright:v1.56.1-jammy
 WORKDIR /app
 
 # Only install what we need
@@ -14,4 +14,3 @@ ENV PORT=3000
 EXPOSE 3000
 
 CMD ["node", "server.mjs"]
-
